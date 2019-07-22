@@ -1,0 +1,20 @@
+body{
+    background-image: url(imagen/inicio1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+	color: violet;
+}
+h2{
+	font-size: 30px; 
+	margin-bottom: 20px;
+	color: purple;
+}
+a{
+	font-size: 30px;
+	color: black;	
+}
+

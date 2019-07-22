@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(imagen/inicio1.jpg) ;
+}
+.contenedor{
+    
+    padding: 1%;
+    padding-left: 60%;
+    padding-top: 10%;
+
+}
+.contenedor label{
+    padding-left: 17%;
+}
+.contenedor button{
+    width: 50%;
+    font-size: 150%;
+}
+.contenedor input{
+    width: 50%;
+    font-size: 150%; 
+}
+.contenedor h1{
+    padding-left: 15%;
+}
+.pie{
+    border: solid;
+    height: 9%;
+}
+.cuerpo{
+    border: solid;
+    padding-bottom: 15.9%;
+}

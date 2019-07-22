@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>English</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    </h:head>
+    <h:body>
+        <main class="cuerpo">
+            <h:form>
+                <div class="contenedor">
+                    <p:messages autoUpdate="true"/>
+                    <h1>LOGIN</h1><br/>
+                    <p:outputLabel  for="user">Usuario </p:outputLabel>
+                    <br/>
+                    <p:inputText id="user" value="#{loginBean.perosna.usuario}" size="20" required="type" requiredMessage="Campo es obligatorio"/>
+                    <br/>
+                    <br/>
+                    <p:outputLabel  for="password">Contraseña </p:outputLabel>
+                    <br/>
+                    <p:password id="password" value="#{loginBean.perosna.contrasenia}" size="20" required="type" requiredMessage="Campo es obligatorio"/>
+                    <br/> 
+                    <br/>
+                    <p:commandButton value="Ingresar" id="btn1" action="ir" actionListener="#{loginBean.login()}"/>      
+                </div>
+            </h:form>
+        </main>
+        <footer class="pie">hola </footer>
+    </h:body>
+</html>
+
